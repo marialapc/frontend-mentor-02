@@ -64,14 +64,14 @@
 }
 
 .card__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
   height: 3.3rem;
   border-radius: 0.5rem;
   border: none;
-  font-size: 0.9em;
+  font-size: 0.87rem;
   font-weight: 700;
   color: var(--white);
   background-color: var(--darkCyan);
@@ -82,9 +82,8 @@
   cursor: pointer;
 }
 
-
 @media all and (max-width: 685px) {
-   .card{
+  .card {
     flex-direction: column;
-   }
   }
+}
