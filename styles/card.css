@@ -13,15 +13,33 @@
 
 .card__content{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    gap: 2rem;
 }
-
+.card__name{
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--darkGrayishBlue);
+}
 .card__title{
     font-family: var(--fontSecondary);  
+    font-weight: 700;
+    color: var(--veryDarkBlue);
 }
 
+.card__description{
+    font-size: 0.87rem;
+    font-weight: 500;
+    color: var(--darkGrayishBlue);
+}
+
+.card__price{
+    display: flex;
+}
 .card__first-price{
     font-family: var(--fontSecondary);
+    font-weight: 700;
     color: var(--darkCyan);
 }
 .card__button{
