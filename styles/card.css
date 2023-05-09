@@ -16,6 +16,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+    padding: 2rem;
 }
 .card__name{
     font-size: 0.87rem;
@@ -36,12 +37,24 @@
 
 .card__price{
     display: flex;
+    gap: 1rem;
 }
 .card__first-price{
+    font-size: 2rem;
     font-family: var(--fontSecondary);
     font-weight: 700;
     color: var(--darkCyan);
 }
+
+.card__second-price{
+   text-decoration: line-through;
+
+}
 .card__button{
+    height: 3rem;
+    border-radius: 0.5rem;
+    border:none;
+    font-weight: 700;
+    color: white;
     background-color: var(--darkCyan);
 }
