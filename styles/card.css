@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  max-width: 40.8rem;
+  width: 100%;
+  max-height: 31.2rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.card__image {
+  width: 50%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.2rem;
+}
+
+.card__name {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.card__title {
+  width: 80%;
+  font-family: var(--fontSecondary);
+  font-weight: 800;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: var(--veryDarkBlue);
+}
+
+.card__description {
+  width: 90%;
+  line-height: 1.5rem;
+}
+
+.card__price {
+  gap: 1rem;
+}
+
+.card__first-price {
+  font-size: 2rem;
+  font-family: var(--fontSecondary);
+  font-weight: 700;
+  color: var(--darkCyan);
+}
+
+.card__second-price {
+  text-decoration: line-through;
+}
+
+.card__button {
+  gap: 0.8rem;
+  padding: 1.2rem;
+  font-size: 0.87rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--darkCyan);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.card__button:hover {
+  background-color: var(--veryDarkCyan);
+  cursor: pointer;
+}
+
+.grey-letter {
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--darkGrayishBlue);
+}
+
+@media all and (max-width: 43rem) {
+  .card {
+    flex-direction: column;
+  }
+}
