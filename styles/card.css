@@ -72,7 +72,7 @@
 }
 
 .card__button:hover {
-  background-color: hsl(158, 36%, 20%);
+  background-color: var(--veryDarkCyan);
   cursor: pointer;
 }
 
