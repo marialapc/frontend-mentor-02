@@ -22,11 +22,8 @@
 }
 
 .card__name {
-  font-size: 0.87rem;
-  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
-  color: var(--darkGrayishBlue);
 }
 
 .card__title {
@@ -40,10 +37,7 @@
 
 .card__description {
   width: 90%;
-  font-size: 0.87rem;
-  font-weight: 500;
   line-height: 1.5rem;
-  color: var(--darkGrayishBlue);
 }
 
 .card__price {
@@ -60,10 +54,7 @@
 }
 
 .card__second-price {
-  font-size: 0.87rem;
-  font-weight: 500;
   text-decoration: line-through;
-  color: var(--darkGrayishBlue);
 }
 
 .card__button {
@@ -83,6 +74,12 @@
 .card__button:hover {
   background-color: hsl(158, 36%, 20%);
   cursor: pointer;
+}
+
+.grey-letter{
+  font-size: 0.87rem;
+  font-weight: 500;
+  color: var(--darkGrayishBlue);
 }
 
 @media all and (max-width: 43rem) {
