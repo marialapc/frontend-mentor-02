@@ -41,8 +41,6 @@
 }
 
 .card__price {
-  display: flex;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -58,11 +56,8 @@
 }
 
 .card__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 0.8rem;
-  height: 3.3rem;
+  padding: 1.2rem;
   font-size: 0.87rem;
   font-weight: 700;
   color: var(--white);
@@ -76,7 +71,7 @@
   cursor: pointer;
 }
 
-.grey-letter{
+.grey-letter {
   font-size: 0.87rem;
   font-weight: 500;
   color: var(--darkGrayishBlue);
