@@ -72,12 +72,12 @@
   justify-content: center;
   gap: 0.8rem;
   height: 3.3rem;
-  border-radius: 0.5rem;
-  border: none;
   font-size: 0.87rem;
   font-weight: 700;
   color: var(--white);
   background-color: var(--darkCyan);
+  border-radius: 0.5rem;
+  border: none;
 }
 
 .card__button:hover {
@@ -85,7 +85,7 @@
   cursor: pointer;
 }
 
-@media all and (max-width: 685px) {
+@media all and (max-width: 43rem) {
   .card {
     flex-direction: column;
   }
