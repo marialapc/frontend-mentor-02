@@ -7,10 +7,14 @@
   border-radius: 0.5rem;
 }
 
-.card__image {
+.card__image-desktop {
   width: 50%;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.card__image-mobile {
+  display: none;
 }
 
 .card__content {
@@ -19,6 +23,7 @@
   flex-direction: column;
   gap: 1.5rem;
   padding: 2.2rem;
+  padding-right: 10%;
 }
 
 .card__name {
@@ -27,7 +32,7 @@
 }
 
 .card__title {
-  width: 80%;
+  font-size: 2rem;
   font-family: var(--fontSecondary);
   font-weight: 800;
   line-height: 2rem;
@@ -36,7 +41,6 @@
 }
 
 .card__description {
-  width: 90%;
   line-height: 1.5rem;
 }
 
@@ -80,5 +84,34 @@
 @media all and (max-width: 43rem) {
   .card {
     flex-direction: column;
+    max-width: 21.5rem;
+    max-height: 39rem;
+  }
+
+  .card__image-desktop {
+    display: none;
+  }
+  
+  .card__image-mobile {
+    display: flex;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .card__content {
+    padding: 1.6rem;
+    gap: 1rem;
+  }
+
+  .card__description {
+    line-height: 1.4rem;
+  }
+
+  .card__price {
+   justify-content: flex-start;
+  }
+
+  .card__button {
+    padding: 1rem;
   }
 }
