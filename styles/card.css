@@ -7,13 +7,13 @@
   border-radius: 0.5rem;
 }
 
-.card__image-desktop {
+.card__image--desktop {
   width: 50%;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
-.card__image-mobile {
+.card__image--mobile {
   display: none;
 }
 
@@ -33,7 +33,7 @@
 
 .card__title {
   font-size: 2rem;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontSecondary) Helvetica, sans-serif;
   font-weight: 800;
   line-height: 2rem;
   text-transform: capitalize;
@@ -50,7 +50,7 @@
 
 .card__first-price {
   font-size: 2rem;
-  font-family: var(--fontSecondary);
+  font-family: var(--fontSecondary) Helvetica, sans-serif;
   font-weight: 700;
   color: var(--darkCyan);
 }
@@ -88,11 +88,11 @@
     max-height: 39rem;
   }
 
-  .card__image-desktop {
+  .card__image--desktop {
     display: none;
   }
 
-  .card__image-mobile {
+  .card__image--mobile {
     display: flex;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
