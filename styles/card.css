@@ -7,13 +7,13 @@
   border-radius: 0.5rem;
 }
 
-.card__image--desktop {
+.card__imageDesktop {
   width: 50%;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
-.card__image--mobile {
+.card__imageMobile {
   display: none;
 }
 
@@ -88,11 +88,11 @@
     max-height: 39rem;
   }
 
-  .card__image--desktop {
+  .card__imageDesktop {
     display: none;
   }
 
-  .card__image--mobile {
+  .card__imageMobile {
     display: flex;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
