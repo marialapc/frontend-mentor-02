@@ -10,12 +10,12 @@
 .card__image {
   border-top-left-radius: 0.5rem;
 }
-.card__image--desktop {
+.is-image-desktop {
   width: 50%;
   border-bottom-left-radius: 0.5rem;
 }
 
-.card__image--mobile {
+.is-image-mobile {
   display: none;
 }
 
@@ -90,11 +90,11 @@
     max-height: 39rem;
   }
 
-  .card__image--desktop {
+  .is-image-desktop {
     display: none;
   }
 
-  .card__image--mobile {
+  .is-image-mobile {
     display: flex;
     border-top-right-radius: 0.5rem;
   }
