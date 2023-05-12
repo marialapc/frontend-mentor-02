@@ -19,25 +19,13 @@
   src: url("../fonts/fraunces.ttf") format("truetype");
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body,
-.main {
-  height: 100%;
-}
-
 body {
   background-color: var(--cream);
   font-family: var(--fontPrimary);
   font-size: 16px;
 }
 
-.center {
+.is-centered {
   display: flex;
   align-items: center;
   justify-content: center;
